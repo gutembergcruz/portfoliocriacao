@@ -1,0 +1,162 @@
+/* reset css
+--------- */
+body,
+p,
+h1,
+ul,
+li,
+a {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      text-decoration: none;
+      font-family: "PT Sans", sans-serif;
+      color: #000000;
+
+}
+
+body {
+      width: 100%;
+      min-height: 100vh;
+}
+
+img {
+      display: block;
+      max-width: 100%;
+}
+
+* {
+      box-sizing: border-box;
+}
+
+/* Header
+--------- */
+.header {
+      padding: 60px 0;
+      display: flex;
+      justify-content:space-around;
+      text-transform: uppercase;
+}
+.logo {
+  background-color: red;
+}
+.menu-nav ul {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+  .menu-nav ul li {
+    display: block;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: color 200ms linear;
+    transition: transform 200ms linear;
+  }
+
+    .menu-nav ul li:hover {
+      color: #000000;
+      transform: scale(1.10)
+    }
+
+      .menu-nav a {
+        display: block;
+        padding: 10px;
+        font-size: 1.25em;
+      }
+
+/* main */
+.conteudo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+
+.readme {
+    width: 480px;
+  }
+  .readme h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.0em
+  }
+    .readme span {
+      color: #6C63FF;
+    }
+
+      .readme img {
+        width: 200px;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+      }
+
+.flat-img img {
+ width: 330px;
+}
+
+/* sobre */
+.sobre {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+
+}
+
+.sobretxt {
+  width: 420px;
+}
+.sobretxt h1 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.0em
+}
+  .sobretxt span {
+    color: #6C63FF;
+  }
+
+.sobre-img img {
+width: 520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */ 
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.direitos p {
+   font-size: 1.25rem;
+    line-height: 3rem;
+  }
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 9rem;
+  }
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
